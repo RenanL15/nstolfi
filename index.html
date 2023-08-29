@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>Número de Stolfi</title>
+</head>
+<body>
+    <div class="main-navbar"></div>
+    <div class="sobre-stolfi">
+        <h1 id="titulo">Número de Stolfi</h1>
+        <hr>    
+        <div class="descricao-stolfi">
+            <p>O número de Stolfi é um número inteiro positivo que foi proposto pelo professor brasileiro de ciência da computação Silvio Stolfi em 1996. É definido como o menor número inteiro positivo que não pode ser expresso como a soma de 19 cubos de números inteiros positivos. O valor exato do número de Stolfi ainda é desconhecido e é uma questão aberta na teoria dos números. Atualmente, os melhores limites conhecidos para o número de Stolfi estão entre 10^14 e 10^16.</p>
+            <p>Um número inteiro positivo x é chamado de número de n-Stolfi se a soma dos seus dígitos, módulo n, é igual ao dígito mais significativo (o dígito mais à esquerda na representação decimal de x).</p>
+            <p>Por exemplo, vamos considerar o número 322. A soma dos seus dígitos é 3 + 2 + 2 = 7. O módulo 4 da soma dos dígitos é 7 mod 4 = 3. O dígito mais significativo é 3. Como 3 é igual a 3, então 322 é um número de 4-Stolfi.</p>
+            <p>Outro exemplo seria o número 168. A soma dos seus dígitos é 1 + 6 + 8 = 15. O módulo 3 da soma dos dígitos é 15 mod 3 = 0. O dígito mais significativo é 1. Como 1 é igual a 1, então 168 é um número de 3-Stolfi.</p>
+            <p>Note que nem todos os números inteiros positivos são números de n-Stolfi. Por exemplo, o número 123 não é um número de 4-Stolfi, pois a soma dos seus dígitos é 1 + 2 + 3 = 6, e o módulo 4 da soma dos dígitos é 6 mod 4 = 2, que é diferente do dígito mais significativo 1.</p>
+        </div>
+    </div>
+    <script src="js/app.js" type="text/babel"></script>
+</body>
+</html>
